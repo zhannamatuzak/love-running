@@ -14,7 +14,8 @@ body {
 
 /* Headings and logo*/
 
-h1, h2 {
+h1,
+h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -34,7 +35,8 @@ h1, h2 {
     letter-spacing: 4px;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 
 }
@@ -65,7 +67,8 @@ h1, h2 {
 
 }
 
-#cover-text, #cover-text h2 {
+#cover-text,
+#cover-text h2 {
     color: #fff;
 }
 
@@ -86,11 +89,12 @@ h1, h2 {
 
 /* creates a level of zoom for hero image */
 @keyframes hero-zoom {
-    from{
+    from {
         transform: scale(1);
 
     }
-    to{
+
+    to {
         transform: scale(1.1);
 
     }
@@ -125,19 +129,51 @@ h1, h2 {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: blue;
+
 }
 
 #right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: silver;
+
 }
 
 #center-about {
     width: 33%;
     margin: 0 auto;
     background-color: green;
+
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading h2 {
+    text-align: right;
+
+}
+
+.right-about-heading p {
+    text-align: right;
 
 }
